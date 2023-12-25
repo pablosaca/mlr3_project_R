@@ -1,0 +1,33 @@
+path:
+  data: C:/Users/p_san/OneDrive/Escritorio/mlr3_project/datos
+
+
+data:
+  target: log_charges
+
+
+preprocessing:
+  dummy: encode
+  standardization: 
+    type: scale
+    params:
+      centre: true
+      scale: true
+
+
+model:
+  model_id: insurance
+  model_type: regr.svm
+  params_model:
+    kernel: radial
+    cost: 0.1
+    regression_type: nu-regression
+  random_seed : 123
+  prop: 0.8
+  folds: 20
+  metric: regr.rmse
+  metric_eval: regr.rsq
+  explicability:
+    show_n_features: 3
+    show_boxplot: false
+    
