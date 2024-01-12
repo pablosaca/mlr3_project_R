@@ -29,5 +29,5 @@ model:
   metric_eval: regr.rsq
   explicability:
     show_n_features: 3
-    show_boxplot: false
+    show_boxplot: true
     

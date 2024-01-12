@@ -26,8 +26,7 @@ La forma más sencilla de instalar los paquetes es:
 install.packages("NOMBRE_DEL_PAQUETE")
 ```
 
-A modo de recordatorio indica cómo visualizar
-la versión del paquete en R.
+A modo de recordatorio se indica cómo visualizar la versión del paquete en R.
 
 ```
 version_del_paquete <- packageVersion("NOMBRE_DEL_PAQUETE")
@@ -37,4 +36,4 @@ print(version_del_paquete)
 ## Información Adicional
 
 - Autor: Pablo Sánchez Cabrera
-- Contacto: psancabrera@gmail.com 
+- Contacto: psancabrera@gmail.com / psanchezc@invi.uned.es
